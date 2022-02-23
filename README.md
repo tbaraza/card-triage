@@ -11,7 +11,7 @@ We are trying to build a Triage Patient's cards that can move cards from the TOD
   - Display the patient cards in the corresponding column (_Pending_ + _Rejected_ and _Done_)
   - Allow user to change the card status from _Pending_ or _Rejected_ to _Done_ and from _Done_ to _Rejected_.
   - Add a local filtering by patient name and arrhythmias.
-  - 
+  
 A particular attention will be taken to your Code Structure, your ability to express data models and UX-UI components structure.
 
 ## Requirements
