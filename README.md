@@ -50,7 +50,7 @@ Here is a simple instruction on how to set up your local server for the project
 2. Run the local API server
     `npm run api`
 
-3. With everything is set up, you can now access the list of cards with the following URL:
+3. With everything set up, you can now access the list of cards with the following URL:
     `GET http://localhost:3000/cards`
 
 ## Share your project
