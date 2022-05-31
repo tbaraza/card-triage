@@ -1,7 +1,7 @@
 Welcome to our Cardiologs **coding challenge**.
 
 The main goal of this interview is for us to assess your level of expertise in the Front-End ecosystem but to also understand your developer habits and evaluate your coding skills ! 
-If it is a match this is fantastic!! You are a step closer to get hired!! :blush:
+If it is a match this is fantastic!! You are a step closer to be part of the team!! :blush:
 
 We offer 3 options during the Technical Interview: 
  1. **Coding** a small web application
