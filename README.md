@@ -1,19 +1,19 @@
 Welcome to our Cardiologs **coding challenge**.
 
-The main goal of this interview is for us to assess your level of expertise in the Front-End ecosystem but to also understand your developer habits and evaluate your coding skills ! 
-If it is a match this is fantastic!! You are a step closer to be part of the team!! :blush:
+The main goal of this interview is for us to assess your level of expertise in the Front-End ecosystem, but also to understand your developer habits and evaluate your coding skills!
+If it is a match, this is fantastic!! You are a step closer to be part of the team!! :blush:
 
 We offer 3 options during the Technical Interview: 
  1. **Coding** a small web application
  2. **Code reviewing** of an existing code base
- 3. **Open format** share us some of the code you have developed and you are excited to discuss
+ 3. **Open format** share some of the code you have developed and you are excited to discuss during the tech interview
 
-In all this 3 options it is important for us to have access of your technical interview code **BEFORE** the interview meeting so we have time to review your work and prepare some constructive feedback ! 
+In all this 3 options it is important for us to have access of your technical interview code **BEFORE** the interview meeting, so we have time to review your work and prepare some constructive feedback! 
 The goal is for all of us to learn from each others.  
 
 ## Share with us
 If you are using a private repository on GitHub, add us as a collaborator (`buenjybar`, `baptooo` and `ArthurFoucher`) so we can read your code. 
-Otherwise share us your code in a zip file ( please do not include `node_modules` and `binaries` ..)
+Otherwise share us your code in a zip file ( using this `git archive --format zip --output /full/path/to/zipfile.zip master` )
 
 ## And of course HAVE FUN!!
 ![alt text][sponge]
@@ -24,7 +24,7 @@ Otherwise share us your code in a zip file ( please do not include `node_modules
 In this option we are going to code a small Web Application to help the Nurse to better manage the patient flow in the hospital.  
 
 During this session of ~2-4h, we will evaluate your coding skills on multiple aspects!!
-It is important to read all the instructions before to start your chrono ⏱!,
+It is important to read all the instructions before to start your chrono ⏱!.
 
 ### Instructions
 We are trying to build a Triage Patient's cards that can move cards from the _Todo_ column to the _Done_ column
@@ -64,7 +64,7 @@ Because no feature is developed without a nice pseudo-design, here is a quick sk
 How to use it?
 Here is a simple instruction on how to set up your local server for the project
 
-1. First install the node dependencies
+1. First, install the node dependencies
     `npm install`
 
 2. Run the local API server
@@ -84,13 +84,13 @@ Feel free to give us your feedback on this Homework, we will be more than happy 
 
 # Option 2: Code reviewing
 
-You can jump to the `codereview/` folder and install the packages
+You can jump to the `codereview/` folder and install the packages.
 
-You can fork this project and add some more commits to Fix / Improve the existing homework
+You can fork this project and add some more commits to Fix / Improve the existing Homework.
 
 Don't forget to share your code with our Technical Interview reviewers [here](#share-with-us)
 
-# Option 3: Share us your code
+# Option 3: Share your code
 
 You have written some nice code that you are pretty proud of and you cannot wait to share it with us!
 Let's talk about it during our interview! 
