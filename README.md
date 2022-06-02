@@ -16,10 +16,6 @@ If you are using a private repository on GitHub, add us as a collaborator (`buen
 
 Otherwise share us your code in a zip file ( using this `git archive --format zip --output /full/path/to/zipfile.zip master` )
 
-## And of course HAVE FUN!!
-![alt text][sponge]
-
-
 # Option 1: Coding
 
 In this option we are going to code a small Web Application to help the Nurse to better manage the patient flow in the hospital.  
@@ -98,6 +94,11 @@ You have written some nice code in the open source world (contributor of a libra
 Let's talk about it during our interview!
 
 Please don't forget to share your **code**, functions or anything related so we can understand the context and being able to run the code :wink:
+
+
+
+## And of course HAVE FUN!!
+![alt text][sponge]
 
 
 [design]: https://github.com/CardioLogs/card-triage/raw/master/images/design.png
