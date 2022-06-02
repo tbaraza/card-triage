@@ -1,4 +1,4 @@
-Welcome to our Cardiologs **coding challenge**.
+# Welcome to our Cardiologs **coding challenge**.
 
 The main goal of this interview is for us to assess your level of expertise in the Front-End ecosystem, but also to understand your developer habits and evaluate your coding skills!
 If it is a match, this is fantastic!! You are a step closer to be part of the team!! :blush:
@@ -12,7 +12,8 @@ In all this 3 options it is important for us to have access of your technical in
 The goal is for all of us to learn from each others.  
 
 ## Share with us
-If you are using a private repository on GitHub, add us as a collaborator (`buenjybar`, `baptooo` and `ArthurFoucher`) so we can read your code. 
+If you are using a private repository on GitHub, add us as a collaborator (`buenjybar` and `baptooo`) so we can read your code.
+
 Otherwise share us your code in a zip file ( using this `git archive --format zip --output /full/path/to/zipfile.zip master` )
 
 ## And of course HAVE FUN!!
@@ -92,9 +93,11 @@ Don't forget to share your code with our Technical Interview reviewers [here](#s
 
 # Option 3: Share your code
 
-You have written some nice code that you are pretty proud of and you cannot wait to share it with us!
-Let's talk about it during our interview! 
-Please don't forget to share your code, functions or anything related so we can understand the context and being able to run the code :wink:
+You have written some nice code in the open source world (contributor of a librairy, a personal project...) 
+
+Let's talk about it during our interview!
+
+Please don't forget to share your **code**, functions or anything related so we can understand the context and being able to run the code :wink:
 
 
 [design]: https://github.com/CardioLogs/card-triage/raw/master/images/design.png
