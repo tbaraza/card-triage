@@ -1,5 +1,8 @@
 .app-nav {
-    height: 5%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 10px 0;
+    width: 100%;
 }
