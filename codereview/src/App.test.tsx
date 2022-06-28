@@ -1,24 +1,19 @@
-import React from 'react';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
+import configureStore from 'redux-mock-store';
+import { Provider } from "react-redux";
 
-import { render, screen } from '@testing-library/react';
-import App from './App';
+const initialState = { patientFlow: [] };
+const mockStore = configureStore();
 
 test('renders page title', () => {
-  render(<App />)
+    const store = mockStore(initialState);
+    render(
+        <Provider store={store}>
+            <App />
+        </Provider>)
 
   const title = screen.queryByText('Patient triage app');
 
   expect(title).toBeInTheDocument();
-})
-
-test('renders columns', () => {
-  render(<App />);
-  
-  const pendingTitle = screen.queryByText('PENDING');
-  const rejectedTitle = screen.queryByText('REJECTED');
-  const doneTitle = screen.queryByText('DONE');
-
-  expect(pendingTitle).toBeInTheDocument();
-  expect(rejectedTitle).toBeInTheDocument();
-  expect(doneTitle).toBeInTheDocument();
-});
+})  
