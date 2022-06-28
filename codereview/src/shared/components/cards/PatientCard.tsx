@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import React from "react";
 import { PatientCardData, Status } from "../../../patient-flow/patientFlowModel";
 import { updatePatientCardStatus } from "../../../patient-flow/services/patientFlowSlice";
@@ -16,7 +17,16 @@ function PatientCard(props: { card: PatientCardData, statuses: Status[]}) {
             <div className="buttons">
                 {
                     statuses.map((status: Status) => (
-                        <button className="card__btn" key={Math.random()} onClick={() => dispatch(updatePatientCardStatus({card, status}))}>Move to {status}</button>
+                        <button
+                            className={classNames('card__btn', {
+                                'card__btn--red': status === 'REJECTED',
+                                'card__btn--green': status === 'DONE',
+                                'card__btn--gray': status === 'PENDING',
+                            })}
+                            key={Math.random()}
+                            onClick={() => dispatch(updatePatientCardStatus({card, status}))}>
+                                Move to {status}
+                        </button>
                         ))
                 }
             </div>

@@ -30,6 +30,21 @@
   border-radius: 5px;
 }
 
+.card__btn--red {
+    background-color: red;
+    color: white;
+}
+
+.card__btn--green {
+    background-color: green;
+    color: white;
+}
+
+.card__btn--gray {
+    background-color: gray;
+    color: white;
+}
+
 .card__btn:hover {
   background: grey;
   color: white;
