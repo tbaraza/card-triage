@@ -9,7 +9,7 @@ function DropdownComponent(props: { data: DropdownItem[] , onSelect: (item: any)
     return (
         <div className="dropdown">
             <label className="dropdown__label"> Filter By {props.label}</label>
-            <select onChange={(evt) => props.onSelect(evt.target.value)}>
+            <select className="dropdown__select" onChange={(evt) => props.onSelect(evt.target.value)}>
             {
                 props.data.map(item => (
                     <option value={item.value} key={item.value}>{item.name}</option>

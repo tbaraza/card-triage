@@ -5,3 +5,7 @@
 .dropdown__label {
     padding-right: 10px;
 }
+
+.dropdown__select {
+    padding: 4px;
+}

@@ -16,17 +16,24 @@ function PatientFlow() {
     const doneCards = useAppSelector(getDonePatientCards);
 
     useEffect(() => {
-    getCards().then((cards: PatientCardData[]) => {
-    dispatch(setPatientCards(cards))
-    })
+        getCards().then((cards: PatientCardData[]) => {
+        dispatch(setPatientCards(cards))
+        })
     }, [ dispatch ])
+
+    const onSearch = (searchTerm: string) => {
+        dispatch(searchPatientName(searchTerm))
+    }
+
+    const onFilter = (item: any) => {
+        dispatch(filterByArrhythmias(item))
+    }
 
   return (
     <div className="patient-flow">
         <div className="form">
-            {/* <SearchComponent onSearch={(evt) => dispatch(searchPatientName(evt.target.value))} /> */}
-            <input type="text" placeholder='Search Patient Name' onChange={(evt) => dispatch(searchPatientName(evt.target.value))} />
-            <DropdownComponent onSelect={(item) => dispatch(filterByArrhythmias(item))} data={arrhythmiaFilterCriteria} label="Arrythmea" />
+            <SearchComponent onSearch={onSearch} />
+            <DropdownComponent onSelect={(item) => onFilter(item)} data={arrhythmiaFilterCriteria} label="Arrythmea" />
         </div>
       <div className="cols">
         <div className="col">
