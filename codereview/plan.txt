@@ -1,0 +1,19 @@
+Create a review branch - done
+
+1. Make it work first with minimal changes so as to have a base - 30 0 used 5 minutes
+2. Convert to ts  - used 34 min
+3. Improve structure - 5 min
+3. Improve code - planned to use 1 hr but used about 4 hrs
+    - Use typescript - done
+    - Add unit tests for components and services - left to add tests for reusable components
+    - Use BEM for css naming - done
+    - separate functional and non function components - done
+    - Remove state management logic from component - use redux - done
+    - Maybe add e2e tests - not done
+    - Error handling - not done
+4. Look into managing assets - not done
+5. Maybe add routing - not done
+6. Lazy loading - routing and dynamic import 
+6. Add mobile view - if there is time left - not done
+7. Add reviewers - buenjybar and baptooo - done
+
